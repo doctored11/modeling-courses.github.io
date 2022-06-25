@@ -7,8 +7,15 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-media.css" />
   </head>
   <body>
     <header class="header">
@@ -26,7 +33,7 @@
           <h1 class="full-screen__main-heading big-heading">
             Курсы 3D моделирования
           </h1>
-          <p class="full-screen__main-paragraph p-txt">
+          <p class="p-txt full-screen__main-paragraph">
             Следует отметить, что существующая теория способствует повышению
             качества благоприятных перспектив. Не следует, однако, забывать.
           </p>
@@ -35,9 +42,10 @@
       </section>
       <section class="main__pluses plus container section">
         <div class="row">
-          <div class="plus__descr col-lg-7">
+          <div class="col-lg-2 col-mg-4 col-sm-4"></div>
+          <div class="plus__descr col-lg-7 col-mg-8 col-sm-8">
             <h2 class="plus__heading big-heading">Преимущества обучения</h2>
-            <p class="p-txt">
+            <p class="p-txt plus__paragraph">
               Имеется спорная точка зрения, гласящая примерно следующее:
               акционеры крупнейших компаний, которые представляют собой яркий
               пример континентально-европейского типа политической культуры,
@@ -48,7 +56,7 @@
         </div>
 
         <ul class="plus__property row">
-          <li class="plus__property-item col-lg-4">
+          <li class="plus__property-item col-lg-4 col-md-4 col-sm-4">
             <div class="plus__property-content">
               <div class="plus__property-ico"></div>
               <p class="plus__property-descr p-txt">
@@ -57,7 +65,7 @@
               </p>
             </div>
           </li>
-          <li class="plus__property-item col-lg-4">
+          <li class="plus__property-item col-lg-4 col-md-4 col-sm-4">
             <div class="plus__property-content">
               <div class="plus__property-ico"></div>
               <p class="plus__property-descr p-txt">
@@ -66,7 +74,7 @@
             </div>
           </li>
 
-          <li class="plus__property-item col-lg-4">
+          <li class="plus__property-item col-lg-4 col-md-4 col-sm-4">
             <div class="plus__property-content">
               <div class="plus__property-ico"></div>
               <p class="plus__property-descr p-txt">
@@ -81,48 +89,58 @@
         <h2 class="info__heading big-heading">Челы или плюсы</h2>
 
         <ul class="info__cards row">
-          <li class="info__card card col-lg-3">
-            <div class="card__descr">
-              <h3 class="card__name">1чел</h3>
-              <p class="card__text p-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                repellendus quos suscipit magni mollitia, tempora assumenda
-                possimus. Corrupti id asperiores molestias ipsum, doloremque
-                repellendus saepe veritatis consequuntur ratione ex quos.
-              </p>
+          <li class="col-lg-3 col-md-6 col-sm-6">
+            <div class="info__card card">
+              <div class="card__descr" data-simplebar>
+                <h3 class="card__name">1чел</h3>
+                <p class="card__text p-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                  repellendus quos suscipit magni mollitia, tempora assumenda
+                  possimus. Corrupti id asperiores molestias ipsum, doloremque
+                  repellendus saepe veritat is consequuntur ratione ex quos.
+                </p>
+              </div>
             </div>
           </li>
-          <li class="info__card card col-lg-3">
-            <div class="card__descr">
-              <h3 class="card__name">2чел</h3>
-              <p class="card__text p-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                repellendus quos suscipit magni mollitia, tempora assumenda
-                possimus. Corrupti id asperiores molestias ipsum, doloremque
-                repellendus saepe veritatis consequuntur ratione ex quos.
-              </p>
+          <li class="col-lg-3 col-md-6 col-sm-6">
+            <div class="info__card card">
+              <div class="card__descr" data-simplebar>
+                <h3 class="card__name">2чел</h3>
+                <p class="card__text p-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                  repellendus quos suscipit magni mollitia,
+                </p>
+              </div>
             </div>
           </li>
-          <li class="info__card card col-lg-3">
-            <div class="card__descr">
-              <h3 class="card__name">3чел</h3>
-              <p class="card__text p-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                repellendus quos suscipit magni mollitia, tempora assumenda
-                possimus. Corrupti id asperiores molestias ipsum, doloremque
-                repellendus saepe veritatis consequuntur ratione ex quos.
-              </p>
+          <li class="col-lg-3 col-md-6 col-sm-6">
+            <div class="info__card card">
+              <div class="card__descr" data-simplebar>
+                <h3 class="card__name">3чел</h3>
+                <p class="card__text p-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                  repellendus quos suscipit magni mollitia, tempora assumenda
+                  possimus. Corrupti id asperiores molestias ipsum, doloremque
+                  repellendus saepe veritat is consequuntur ratione ex quos.
+                </p>
+              </div>
             </div>
           </li>
-          <li class="info__card card col-lg-3">
-            <div class="card__descr">
-              <h3 class="card__name">4чел</h3>
-              <p class="card__text p-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                repellendus quos suscipit magni mollitia, tempora assumenda
-                possimus. Corrupti id asperiores molestias ipsum, doloremque
-                repellendus saepe veritatis consequuntur ratione ex quos.
-              </p>
+          <li class="col-lg-3 col-md-6 col-sm-6">
+            <div class="info__card card">
+              <div class="card__descr" data-simplebar>
+                <h3 class="card__name">4чел</h3>
+                <p class="card__text p-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                  repellendus quos suscipit magni mollitia, tempora assumenda
+                  possimus. Corrupti id asperiores molestias ipsum, doloremque
+                  repellendus saepe veritat is consequuntur ratione ex quos.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Nulla molestiae rem dolorum porro beatae vero ab est fugit
+                  dolorem dolore nam, totam quisquam omnis vel magni sapiente
+                  laudantium quibusdam optio?
+                </p>
+              </div>
             </div>
           </li>
         </ul>
@@ -131,78 +149,87 @@
         <h2 class="courses__heading big-heading row">Курсы</h2>
 
         <ul class="courses__cards row">
-          <li class="courses__card card col-lg-6">
-            <div class="card__time"></div>
-            <div class="card__descr card__descr--courses">
-              <h3 class="card__name card__name--courses">
-                Cinema 4d для начинающих
-              </h3>
-              <p class="card__text card__text--courses p-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-                nisi quia repellat repudiandae, autem natus facere, distinctio
-                voluptate rerum inventore facilis, tempora dolores alias
-                exercitationem eaque expedita! Dolores, ratione eaque!
-              </p>
-              <button class="card__btn button">Подробнее</button>
+          <li class="courses__col col-lg-6 col-md-6 col-sm-6">
+            <div class="courses__card card">
+              <div class="card__time"></div>
+              <div class="card__descr card__descr--courses">
+                <h3 class="card__name card__name--courses">
+                  Cinema 4d для начинающих
+                </h3>
+                <p class="card__text card__text--courses p-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero nisi quia repellat repudiandae, autem natus facere,
+                  distinctio voluptate rerum inventore facilis, tempora dolores
+                  alias exercitationem eaque expedita! Dolores, ratione eaque!
+                </p>
+                <button class="card__btn button">Подробнее</button>
+              </div>
             </div>
           </li>
-          <li class="courses__card card col-lg-6">
-            <div class="card__time"></div>
-            <div class="card__descr card__descr--courses">
-              <h3 class="card__name card__name--courses">
-                Blender: продвинутый уровень
-              </h3>
-              <p class="card__text card__text--courses p-txt">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Voluptatibus quidem aliquam ut iusto dolorum nulla nobis
-                eligendi. Inventore, sit? Voluptatem velit et voluptatibus nemo
-                aspernatur dolore error expedita iste excepturi!
-              </p>
-              <button class="card__btn button">Подробнее</button>
+          <li class="courses__col col-lg-6 col-md-6 col-sm-6">
+            <div class="courses__card card">
+              <div class="card__time"></div>
+              <div class="card__descr card__descr--courses">
+                <h3 class="card__name card__name--courses">
+                  Blender: продвинутый уровень
+                </h3>
+                <p class="card__text card__text--courses p-txt">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus quidem aliquam ut iusto dolorum nulla nobis
+                  eligendi. Inventore, sit? Voluptatem velit et voluptatibus
+                  nemo aspernatur dolore error expedita iste excepturi!
+                </p>
+                <button class="card__btn button">Подробнее</button>
+              </div>
             </div>
           </li>
 
-          <li class="courses__card card col-lg-6">
-            <div class="card__time"></div>
-            <div class="card__descr card__descr--courses">
-              <h3 class="card__name card__name--courses">
-                Визуализация в 3ds Max
-              </h3>
-              <p class="card__text card__text--courses p-txt">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Corrupti molestiae adipisci nobis, sed maiores quam, porro
-                aspernatur aperiam minima placeat veniam hic deleniti. Nobis,
-                assumenda esse ipsum repellendus quia eaque!
-              </p>
-              <button class="card__btn button">Подробнее</button>
+          <li class="courses__col col-lg-6 col-md-6 col-sm-6">
+            <div class="courses__card card">
+              <div class="card__time"></div>
+              <div class="card__descr card__descr--courses">
+                <h3 class="card__name card__name--courses">
+                  Визуализация в 3ds Max
+                </h3>
+                <p class="card__text card__text--courses p-txt">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Corrupti molestiae adipisci nobis, sed maiores quam, porro
+                  aspernatur aperiam minima placeat veniam hic deleniti. Nobis,
+                  assumenda esse ipsum repellendus quia eaque!
+                </p>
+                <button class="card__btn button">Подробнее</button>
+              </div>
             </div>
           </li>
-          <li class="courses__card card col-lg-6">
-            <div class="card__time"></div>
-            <div class="card__descr card__descr--courses">
-              <h3 class="card__name card__name--courses">
-                Скульптинг в ZBrush
-              </h3>
-              <p class="card__text card__text--courses p-txt">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Corrupti molestiae adipisci nobis, sed maiores quam, porro
-                aspernatur aperiam minima placeat veniam hic deleniti. Nobis,
-                assumenda esse ipsum repellendus quia eaque!
-              </p>
-              <button class="card__btn button">Подробнее</button>
+          <li class="courses__col col-lg-6 col-md-6 col-sm-6">
+            <div class="courses__card card">
+              <div class="card__time"></div>
+              <div class="card__descr card__descr--courses">
+                <h3 class="card__name card__name--courses">
+                  Скульптинг в ZBrush
+                </h3>
+                <p class="card__text card__text--courses p-txt">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Corrupti molestiae adipisci nobis, sed maiores quam, porro
+                  aspernatur aperiam minima placeat veniam hic deleniti. Nobis,
+                  assumenda esse ipsum repellendus quia eaque!
+                </p>
+                <button class="card__btn button">Подробнее</button>
+              </div>
             </div>
           </li>
         </ul>
       </section>
       <footer class="footer">
         <ul class="footer__socials">
-          <li class="footer__media-ico"></li>
-          <li class="footer__media-ico"></li>
-          <li class="footer__media-ico"></li>
-          <li class="footer__media-ico"></li>
+          <li class="footer__media-ico">0</li>
+          <li class="footer__media-ico">0</li>
+          <li class="footer__media-ico">0</li>
+          <li class="footer__media-ico">0</li>
         </ul>
       </footer>
     </main>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
