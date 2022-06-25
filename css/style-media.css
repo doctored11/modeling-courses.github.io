@@ -1,0 +1,44 @@
+@media (max-width: 1992px) {
+  .container {
+    padding: 0 40px;
+    max-width: 100%;
+  }
+  .info__card:nth-child(-n + 2) {
+    margin-bottom: 30px;
+  }
+  .card__btn {
+    width: 195px;
+    height: 60px;
+  }
+  .courses__card {
+    height: 560px;
+  }
+  .header {
+    padding: 30px 40px;
+  }
+  .frame {
+    padding: 0 40px;
+  }
+  .plus__property-content {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media (max-width: 770px) {
+  .frame {
+    padding: 0 30px;
+  }
+  .container {
+    padding: 0 30px;
+  }
+  .courses__card {
+    height: 650px;
+  }
+  .card__btn {
+    width: 175px;
+    padding: 20px 45px;
+  }
+  .card__descr--courses {
+    align-items: center;
+  }
+}
