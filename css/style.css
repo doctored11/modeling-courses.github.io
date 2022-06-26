@@ -8,6 +8,7 @@
 /* * */
 .big-heading {
   /* font-family: Roboto; */
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
@@ -23,9 +24,14 @@ li {
   margin: 0;
   padding: 0;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+}
 .p-txt {
   color: #fff;
   /* font-family: Roboto; */
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -38,6 +44,7 @@ ul {
 }
 .container {
   padding: 0 165px;
+
   max-width: 100%;
   margin-left: 0;
   margin-right: 0;
@@ -47,7 +54,6 @@ ul {
   padding-bottom: 80px;
 }
 .button {
-  padding: 24px 75.5px;
   width: 270px;
   height: 69px;
   background: var(--main-blue);
@@ -73,6 +79,7 @@ ul {
   margin-bottom: 5px;
 }
 .header__burger-ico {
+  border: none;
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -100,6 +107,15 @@ ul {
 .header__link:not(:last-child) {
   margin-right: 60px;
 }
+.header__link {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 .full-screen__main-paragraph {
   color: #fff;
   font-size: 18px;
@@ -121,13 +137,19 @@ ul {
 }
 .full-screen__content-box {
   width: 465px;
-  height: 300px;
+}
+.full-screen__content-box * {
+  margin: 0;
 }
 .full-screen__main-heading {
   font-size: 60px;
   line-height: 60px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 1.5rem;
+}
+.full-screen__main-paragraph {
+  margin-bottom: 3rem;
 }
 /* plus */
 .plus__heading {
@@ -135,6 +157,9 @@ ul {
 }
 .plus__paragraph {
   color: #666666;
+}
+.plus__descr {
+  margin-bottom: 30px;
 }
 .plus__property-content,
 .plus__property-item {
