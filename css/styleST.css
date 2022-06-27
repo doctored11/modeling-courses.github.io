@@ -1,0 +1,243 @@
+.full-screen__content-box--ST {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.teach {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 3%;
+}
+.teach-name {
+  visibility: hidden;
+  transform: translateY(-30px);
+  transition: visibility cubic-bezier(0.075, 0.82, 0.165, 1) 0.05s,
+    transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+  /*  */
+  z-index: 3;
+  width: 130px;
+  position: absolute;
+  bottom: -80%;
+  left: -20px;
+  right: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* transform: scaleX(300%); */
+
+  word-wrap: break-word;
+  height: max-content;
+
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 30px;
+  background-color: rgba(169, 147, 183, 0.357);
+}
+.teach:hover .teach-name {
+  visibility: visible;
+  transform: translateY(0px);
+  transition: visibility ease 0.2s,
+    transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+.name-of-teacher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+}
+.full-screen__people-image {
+  height: 85%;
+  border: 3px solid var(--main-blue);
+  border-radius: 30px;
+  background-color: rgba(1, 1, 49, 0.325);
+  backdrop-filter: blur(20px);
+}
+.full-screen__people-info {
+  padding: 5% 2%;
+  border: 3px solid #2a2a37;
+  border-radius: 30px;
+  background-color: #212133b5;
+  height: 70%;
+  backdrop-filter: blur(10px);
+}
+.feedback__property-descr {
+  max-height: 110px;
+  width: 80%;
+}
+.full-screen__about-people-heading {
+  margin-bottom: 25px;
+}
+.main__full-screen {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: radial-gradient(
+    24.07% 44.07% at 27.78% 35.93%,
+    #3c3457 0%,
+    #212133 100%
+  );
+}
+.feedback__property-ico {
+  width: 90px;
+  height: 90px;
+  min-width: 90px;
+  border-radius: 50%;
+  background-color: var(--main-blue);
+  margin-right: 4%;
+}
+.feedback__property-content {
+  display: flex;
+  position: relative;
+}
+.feedback__property-descr {
+  color: #2d1968;
+}
+.feedback__property-content {
+  display: flex;
+  align-items: center;
+}
+.full-screen__about-people-text {
+  height: 80%;
+  max-height: 300px;
+}
+
+.info__work {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+.work__ul {
+  margin-bottom: 50px;
+  min-height: 400px;
+  max-height: 600px;
+  align-items: center;
+}
+.work__li {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.work__pic {
+  width: 60%;
+}
+.swiper-pagination {
+  width: 70%;
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  z-index: 5;
+}
+.swiper-pagination-bullet {
+  background-color: #ffffff8b;
+  width: 16px;
+  height: 16px;
+  margin-right: 20px;
+  z-index: 8;
+  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+}
+
+.swiper-pagination-bullet-active {
+  outline: 2px solid var(--main-blue);
+  transform: translateY(-5px);
+  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+}
+.feedback__property-ico {
+  position: relative;
+}
+.feedback__teacher-ico {
+  position: absolute;
+  width: 79%;
+  margin: auto;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/*  */
+
+/*  */
+@media (max-width: 1302px) and (min-width: 770px) {
+  .feedback__property-descr {
+    max-height: 400px;
+    width: 90%;
+  }
+  .feedback__property-content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1250px) {
+  .full-screen__people-image {
+    height: 65%;
+  }
+  .work__pic {
+    width: 75%;
+  }
+}
+@media (max-width: 1100px) and (min-width: 770px) {
+  .full-screen__people-image {
+    height: 60%;
+  }
+  .full-screen {
+    max-height: 600px;
+  }
+  .full-screen__about-people-text {
+    height: 75%;
+  }
+}
+@media (max-width: 575px) {
+  .p-txt {
+    overflow: visible;
+    max-height: 110px;
+  }
+  .full-screen__about-people-text {
+    max-height: 300px;
+  }
+  .full-screen__people-image {
+    margin-bottom: 20px;
+    height: 45%;
+    max-height: 450px;
+  }
+
+  .full-screen__about-people-text {
+    height: 70%;
+  }
+
+  .full-screen__people-info {
+    height: 45%;
+    max-height: 450px;
+  }
+  .work__pic {
+    width: 100%;
+  }
+
+  .main__full-screen {
+    min-height: 800px;
+    height: 55em;
+    max-height: 20000px;
+  }
+  .courses__card {
+    max-height: 780px;
+  }
+  .card__text--courses {
+    max-height: 350px;
+  }
+  .card__name--courses {
+    margin: 0;
+  }
+  .info__work {
+    width: 95%;
+  }
+  .plus + .container {
+    padding: 60px 5px;
+  }
+}
