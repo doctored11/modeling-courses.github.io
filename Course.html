@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-media.css" />
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <link rel="stylesheet" href="css/styleCourse.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">нейминг</div>
+      <div class="header__drop-down-menu">
+        <ul class="header__menu">
+          <li class="header__link">
+            <a href="#"> Главная </a>
+          </li>
+          <li class="header__link">
+            <a href="#"> О Нас </a>
+          </li>
+          <li class="header__link">
+            <a href="#"> Инфо </a>
+          </li>
+          <li class="header__link">
+            <a href="#"> Курсы </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__burger">
+        <button class="header__burger-ico" aria-label="открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__full-screen main__full-screen--course full-screen">
+        <div class="courses__card courses__card--full card">
+          <div class="card__time"></div>
+          <div class="card__descr card__descr--courses">
+            <h3 class="card__name card__name--courses big-heading">
+              Название Курса
+            </h3>
+            <p class="card__text card__text--courses p-txt">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+              molestiae adipisci nobis, sed maiores quam, porro aspernatur
+              aperiam minima placeat veniam hic deleniti. Nobis, assumenda esse
+              ipsum repellendus quia eaque!
+            </p>
+            <button class="card__btn button card__btn--courses">
+              Записаться на курс
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="plus">
+        <div class="frame">
+          <ul class="plus__property row">
+            <li class="plus__property-item col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="plus__property-content">
+                <div
+                  class="plus__property-ico plus__property-ico--course"
+                ></div>
+
+                <p class="plus__property-descr p-txt">Обучение до уровня PRO</p>
+              </div>
+            </li>
+            <li class="plus__property-item col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="plus__property-content">
+                <div
+                  class="plus__property-ico plus__property-ico--course"
+                ></div>
+                <p class="plus__property-descr p-txt">Пополнение портфолио</p>
+              </div>
+            </li>
+
+            <li class="plus__property-item col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="plus__property-content">
+                <div
+                  class="plus__property-ico plus__property-ico--course"
+                ></div>
+                <p class="plus__property-descr p-txt">Погружение в профессию</p>
+              </div>
+            </li>
+            <li class="plus__property-item col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="plus__property-content">
+                <div
+                  class="plus__property-ico plus__property-ico--course"
+                ></div>
+                <p class="plus__property-descr p-txt">
+                  Гарантированное трудоустройство
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <div class="frame">
+          <!-- <div class="container"> -->
+          <h2 class="about__heading big-heading big-heading--black">
+            Кому подойдёт этот курс
+          </h2>
+          <ul class="about__target target course-list row">
+            <li class="target__li col-lg-4">
+              <div class="target__card">
+                <div class="target__card-content">
+                  <h3 class="target__heading big-heading big-heading--black">
+                    Томуто
+                  </h3>
+                  <p class="p-txt p-txt--dark">томуто томуто потомуто точно</p>
+                </div>
+              </div>
+            </li>
+            <li class="target__li col-lg-4">
+              <div class="target__card">
+                <div class="target__card-content">
+                  <h3 class="target__heading big-heading big-heading--black">
+                    Томуто
+                  </h3>
+                  <p class="p-txt p-txt--dark">томуто томуто потомуто точно</p>
+                </div>
+              </div>
+            </li>
+            <li class="target__li col-lg-4">
+              <div class="target__card">
+                <div class="target__card-content">
+                  <h3 class="target__heading big-heading big-heading--black">
+                    Томуто
+                  </h3>
+                  <p class="p-txt p-txt--dark">томуто томуто потомуто точно</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <h2 class="about__heading big-heading big-heading--black">
+            Чему вы научитесь
+          </h2>
+          <ul class="about__skills skills course-list row">
+            <li class="skills__li col-lg-4 col-md-6">
+              <div class="skills__property-content plus__property-content">
+                <div
+                  class="skills__property-ico plus__property-ico plus__property-ico--course"
+                ></div>
+                <h3 class="skills__name">Скиллллл____</h3>
+                <p class="plus__property-descr skills__property-descr p-txt">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+                  maxime ab dolor est, cupiditate odit, autem, necessitatibus
+                  quas eaque excepturi ex impedit quasi praesentium iusto
+                  numquam. Earum inventore aut corrupti!
+                </p>
+              </div>
+            </li>
+            <li class="skills__li col-lg-4 col-md-6">
+              <div class="skills__property-content plus__property-content">
+                <div
+                  class="skills__property-ico plus__property-ico plus__property-ico--course"
+                ></div>
+                <h3 class="skills__name">Скиллллл____</h3>
+                <p class="plus__property-descr skills__property-descr p-txt">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+                  maxime ab dolor est, cupiditate odit, autem, necessitatibus
+                  quas eaque excepturi ex impedit quasi praesentium iusto
+                  numquam. Earum inventore aut corrupti!
+                </p>
+              </div>
+            </li>
+            <li class="skills__li col-lg-4 col-md-6">
+              <div class="skills__property-content plus__property-content">
+                <div
+                  class="skills__property-ico plus__property-ico plus__property-ico--course"
+                ></div>
+                <h3 class="skills__name">Скиллллл____</h3>
+                <p class="plus__property-descr skills__property-descr p-txt">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+                  maxime ab dolor est, cupiditate odit, autem, necessitatibus
+                  quas eaque excepturi ex impedit quasi praesentium iusto
+                  numquam. Earum inventore aut corrupti!
+                </p>
+              </div>
+            </li>
+            <li class="skills__li col-lg-4 col-md-6">
+              <div class="skills__property-content plus__property-content">
+                <div
+                  class="skills__property-ico plus__property-ico plus__property-ico--course"
+                ></div>
+                <h3 class="skills__name">Скиллллл____</h3>
+                <p class="plus__property-descr skills__property-descr p-txt">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+                  maxime ab dolor est, cupiditate odit, autem, necessitatibus
+                  quas eaque excepturi ex impedit quasi praesentium iusto
+                  numquam. Earum inventore aut corrupti!
+                </p>
+              </div>
+            </li>
+            <li class="skills__li col-lg-4 col-md-6">
+              <div class="skills__property-content plus__property-content">
+                <div
+                  class="skills__property-ico plus__property-ico plus__property-ico--course"
+                ></div>
+                <h3 class="skills__name">Скиллллл____</h3>
+                <p class="plus__property-descr skills__property-descr p-txt">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+                  maxime ab dolor est, cupiditate odit, autem, necessitatibus
+                  quas eaque excepturi ex impedit quasi praesentium iusto
+                  numquam. Earum inventore aut corrupti!
+                </p>
+              </div>
+            </li>
+            <li class="skills__li col-lg-4 col-md-6">
+              <div class="skills__property-content plus__property-content">
+                <div
+                  class="skills__property-ico plus__property-ico plus__property-ico--course"
+                ></div>
+                <h3 class="skills__name">Скиллллл____</h3>
+                <p class="plus__property-descr skills__property-descr p-txt">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+                  maxime ab dolor est, cupiditate odit, autem, necessitatibus
+                  quas eaque excepturi ex impedit quasi praesentium iusto
+                  numquam. Earum inventore aut corrupti!
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- </div> -->
+      </section>
+      <section class="job">
+        <div class="frame job__frame">
+          <div class="job__card">
+            <div class="job__content-part">
+              <h3 class="job__heading big-heading">
+                Трудоустроим или вернём деньги
+              </h3>
+              <p class="job__paragraph p-txt">
+                Вас ждет незабываемое обучение до уровня профессионала. Вместе с
+                нашими специалистами вы составите резюме, подготовите портфолио,
+                которое поможет найти высокооплачиваемую работу. За время
+                обучения вы соберете мнодество хороших работ и сможете отобрать
+                из них самые качественные. С вашими будущими профессиональными
+                навыками вам оторвут руки - шучу вы же не программист, просто
+                засунут их в попу. Ваша анкета будет не только размещена на
+                бирже труда, но и будет предмтавлена нашим партнерам, что
+                увеличивает шанс найти хорошую работу
+              </p>
+              <p class="job__paragraph p-txt">
+                Если вы не выйдете на работу, мы вернём вам деньги за курс.
+              </p>
+            </div>
+            <div class="job__source-block">
+              <img class="job__gif" src="img/money.gif" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="buy">
+        <div class="frame buy__frame">
+          <div class="buy__card">
+            <div class="buy__content-part">
+              <h3 class="buy__heading big-heading big-heading--black">
+                Записаться на курс или получить бесплатную консультацию
+              </h3>
+            </div>
+            <div class="buy__form-block">
+              <div class="main__validation-form contact-form container">
+                <form
+                  action="#"
+                  id="form"
+                  autocomplete="off"
+                  class="contact-form__form form row"
+                >
+                  <div class="form__input-box col-lg-12">
+                    <input
+                      type="text"
+                      class="form__input form-control form-name"
+                      placeholder=" name"
+                      autocomplete="off"
+                      name="name"
+                      id="name"
+                    />
+                  </div>
+                  <div class="form__input-box col-lg-6">
+                    <input
+                      type="tel"
+                      name="tel"
+                      autocomplete="off"
+                      id="tel"
+                      class="form__input form-control form-tel"
+                      placeholder="телефон"
+                      data-validate-field="tel"
+                    />
+                  </div>
+                  <div class="form__input-box col-lg-6">
+                    <input
+                      type="email"
+                      class="form__input form-control form-mail"
+                      placeholder="Enter your email"
+                      autocomplete="off"
+                      name="email"
+                      id="email"
+                    />
+                  </div>
+                  <button
+                    class="btn btn-primary col-lg-6 button"
+                    id="submit-btn"
+                  >
+                    Отправить
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="frame questions__frame">
+          <div class="questions__repeat repeat">
+            <div class="repeat__content-part">
+              <h2 class="repeat__heading big-heading big-heading--black">
+                Частые вопросы
+              </h2>
+            </div>
+            <div class="repeat__questions">
+              <ul class="qwestions__list accordion">
+                <li class="qwestions__item ac" tabindex="0">
+                  <h3 class="ac-header" tabindex="-1">
+                    Я ленивый - у меня получиться ?
+                  </h3>
+                  <p class="ac-trigger">Получить сертификат - получится !</p>
+                  <div class="qwestion__img-block">
+                    <svg
+                      class="qwestion__svg"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666"
+                      />
+                    </svg>
+                  </div>
+                </li>
+                <li class="qwestions__item ac" tabindex="0">
+                  <h3 class="ac-header" tabindex="-1">
+                    Какое програмное обеспеченье мне понадобится? Оно входит в
+                    стоимость курса?
+                  </h3>
+                  <p class="ac-trigger">
+                    В зависимости от курса разнятся и программы, в стоимость
+                    курса они не входят;)
+                  </p>
+
+                  <div class="qwestion__img-block">
+                    <svg
+                      class="qwestion__svg"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666"
+                      />
+                    </svg>
+                  </div>
+                </li>
+                <li class="qwestions__item ac" tabindex="0">
+                  <h3 class="ac-header">
+                    Какое расписание учебы? Я уже учусь - смогу ли успевать?
+                  </h3>
+                  <p class="ac-trigger">
+                    Вы можете изучать материалы курса в удобном вам режиме,
+                    совмещать обучение на платформе с работой и личной жизнью.
+                    Более того, все видео будут доступны и по окончании курса,
+                    так что вы сможете освежить свои знания в любой момент.
+                  </p>
+
+                  <div class="qwestion__img-block">
+                    <svg
+                      class="qwestion__svg"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666"
+                      />
+                    </svg>
+                  </div>
+                </li>
+                <li class="qwestions__item ac" tabindex="0">
+                  <h3 class="ac-header">
+                    Сколько часов в неделю мне нужно будет уделять обучению на
+                    платформе?
+                  </h3>
+                  <p class="ac-trigger">
+                    Всё зависит только от вас. В среднем пользователи платформы
+                    занимаются от 12 до 40 часов в неделю.
+                  </p>
+
+                  <div class="qwestion__img-block">
+                    <svg
+                      class="qwestion__svg"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666"
+                      />
+                    </svg>
+                  </div>
+                </li>
+                <li class="qwestions__item ac" tabindex="0">
+                  <h3 class="ac-header">
+                    Могу ли я вернуть деньги на каком-либо из этапов обучения?
+                  </h3>
+                  <p class="ac-trigger">Конечно нет, ЛОЛ!</p>
+
+                  <div class="qwestion__img-block">
+                    <svg
+                      class="qwestion__svg"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 50 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
+                        fill="#666666"
+                      />
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__socials">
+        <li class="footer__media-ico">0</li>
+        <li class="footer__media-ico">0</li>
+        <li class="footer__media-ico">0</li>
+        <li class="footer__media-ico">0</li>
+      </ul>
+    </footer>
+
+    <script type="module">
+      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+      const swiper = new Swiper();
+    </script>
+    <script src="lib/Inputmask-5.x/dist/inputmask.js"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      const validate = new window.JustValidate("#form");
+    </script>
+    <script src="js/script-accordion.js"></script>
+    <script src="js/script-validate.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
