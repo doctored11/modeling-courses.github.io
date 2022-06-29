@@ -4,6 +4,7 @@
 
     max-width: 100%;
   }
+
   .info__card:nth-child(-n + 2) {
     margin-bottom: 30px;
   }
@@ -25,7 +26,23 @@
     flex-direction: column;
   }
 }
+@media (max-width: 1160px) {
+  .full-screen__image-box * {
+    width: 95%;
+    max-width: 650px;
+    transform: scale(120%);
+    z-index: 3;
+  }
+  .plus__descr {
+    margin-bottom: 30px;
+  }
+}
 @media (max-width: 770px) {
+  .full-screen__image-box * {
+    width: 0;
+    height: 0;
+    display: none;
+  }
   .frame {
     padding: 0 30px;
   }
@@ -234,4 +251,80 @@
 }
 .stop-scroll {
   overflow: hidden;
+}
+/*  */
+@media (min-width: 1702px) {
+  .plus__space {
+    background-size: 75%;
+    margin-top: -2%;
+    margin-bottom: -2%;
+    padding: 2% 0;
+    z-index: 3;
+  }
+}
+@media (min-width: 1992px) {
+  .plus__space {
+    background-size: 45%;
+    margin-top: -4%;
+    margin-bottom: -4%;
+    padding: 4% 0;
+    z-index: 3;
+  }
+  .container,
+  .frame {
+    padding: 0 15%;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.button:hover {
+  transform: scale(105%);
+  border-color: var(--main-blue);
+
+  color: var(--main-blue);
+  box-shadow: 0 0 80px rgb(255, 255, 255) inset;
+  background-color: #fff;
+  transition: box-shadow ease 0.6s,
+    background-color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s 0.5s,
+    color ease 0.15s 0.65s;
+}
+.courses__card:hover {
+  transform: translateY(-10px);
+  transition: transform cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+}
+.card__name--courses::after {
+  background-color: var(--main-blue);
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0;
+  transition: width cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s 0.1s;
+}
+.courses__card:hover .card__name--courses::after {
+  width: 70%;
+  transition: width cubic-bezier(0.165, 0.84, 0.44, 1) 0.35s 0.1s;
+}
+.courses__card:hover .button {
+  transform: scale(105%);
+}
+/*  */
+.header__link::after {
+  transform: translateY(3px);
+  background-color: #fff;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0;
+  transition: width cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s 0.1s;
+}
+.header__link--dark::after {
+  background-color: var(--main-blue);
+}
+
+.header__link:hover::after {
+  width: 100%;
+  transition: width cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s 0.1s;
 }

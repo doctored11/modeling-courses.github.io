@@ -20,6 +20,13 @@
   padding: 50px 200px 68px;
   width: 90%;
 }
+.corse-cinema {
+  background-image: url(../img/Cinema\ abstract.png);
+  background-size: 80%;
+
+  background-position: 220% 100%;
+}
+
 .card__btn--courses {
   padding: 8px 20px;
   width: 320px;
@@ -31,6 +38,7 @@ section {
   background: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .card__text--courses {
   font-size: 18px;
@@ -61,11 +69,13 @@ section {
 .main > .frame {
   padding: 0 175px;
 }
+
 .plus__property-ico--course {
   width: 15px;
   min-width: 15px;
   height: 15px;
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 .plus__property-descr {
   width: 80%;
@@ -91,11 +101,14 @@ section {
 
 .target__card {
   height: 360px;
-  padding: 165px 10px 5px 10px;
+  padding: 125px 10px 5px 10px;
   border-radius: 10px;
 }
 .row {
   margin-bottom: 25px;
+}
+.plus__property {
+  margin-bottom: 50px;
 }
 .job__card {
   display: flex;
@@ -175,6 +188,7 @@ section {
 .form__input-box {
   margin-bottom: 25px;
 }
+
 /*  */
 .just-validate-error-label {
   color: #f88603f3 !important;
@@ -202,12 +216,20 @@ section {
   top: 0;
   right: 0;
   width: 100px;
+  min-height: 80px;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-content: center;
+
   justify-content: center;
   align-items: center;
+}
+.qwestions__item {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all ease 0.3s;
 }
 .qwestion__svg {
   transform: rotate(0deg);
@@ -243,6 +265,30 @@ section {
   max-width: 350px;
 }
 
+/*  */
+.target__card {
+  background: no-repeat;
+  background-size: 40%;
+  background-position: top 0 right 0;
+}
+.target__heading {
+  max-width: 75%;
+}
+.target__p {
+  max-width: 90%;
+}
+.target-1 {
+  background-image: url(../img/for1.png);
+}
+
+.target-3 {
+  background-image: url(../img/for2.png);
+}
+
+.target-2 {
+  background-image: url(../img/for3.png);
+}
+
 @media (max-width: 1600px) {
   .frame {
     padding: 0 60px;
@@ -255,8 +301,33 @@ section {
     padding-top: 25px;
     padding-bottom: 25px;
   }
+  .target__heading {
+    max-width: 85%;
+  }
+  .target__p {
+    max-width: 90%;
+  }
 }
 @media (max-width: 1260px) {
+  .courses__card--full {
+    background-size: 70%;
+    background-position: 150% 50%;
+  }
+  .target__card {
+    padding-top: 20px;
+    background-image: none;
+    height: max-content;
+  }
+  .target__heading {
+    max-width: 100%;
+  }
+  .target__p {
+    max-width: 100%;
+  }
+  .courses__card--full {
+    width: 95%;
+    padding: 35px 85px 40px;
+  }
   .job__card {
     padding: 45px 90px;
   }
@@ -279,6 +350,9 @@ section {
   }
 }
 @media (max-width: 770px) {
+  .courses__card--full {
+    background-image: none;
+  }
   .frame {
     padding: 0 20px;
   }
@@ -385,3 +459,4 @@ section {
 }
 @media (max-width: 300px) {
 }
+/*  */
