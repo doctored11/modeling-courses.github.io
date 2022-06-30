@@ -20,11 +20,37 @@
   padding: 50px 200px 68px;
   width: 90%;
 }
-.corse-cinema {
+.course-cinema {
   background-image: url(../img/Cinema\ abstract.png);
   background-size: 80%;
+  background-color: #9788c687;
 
   background-position: 220% 100%;
+}
+.course-3ds {
+  background-image: url(../img/3dsAbstract.png);
+  background-size: 60%;
+  background-color: #88adc687;
+
+  background-position: 160% 100%;
+}
+.course-blender {
+  background-image: url(../img/blender.png);
+  background-size: 60%;
+  background-color: #88c6bf87;
+
+  background-position: 160% 100%;
+}
+.course-ZB:hover .card__name--courses::after,
+.course-blender:hover .card__name--courses::after {
+  width: 100%;
+}
+.course-ZB {
+  background-image: url(../img/ZBABstract.png);
+  background-size: 60%;
+  background-color: #b688c687;
+
+  background-position: 160% 100%;
 }
 
 .card__btn--courses {

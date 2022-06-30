@@ -2,6 +2,18 @@
   box-sizing: border-box;
   border: 2px solid rgba(243, 179, 40, 0.2);
 }
+*:focus {
+  outline-color: var(--main-blue);
+  background-color: #fff;
+  border-radius: 5px;
+  background-color: transparent;
+}
+a[name] {
+  visibility: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
 :root {
   --main-blue: #572dd6;
 }
@@ -111,6 +123,15 @@ ul {
   color: #fff;
   max-height: 30px;
 }
+.header__logo {
+  font-family: "Varela Round", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+}
+.header__logo:active {
+  background-color: transparent;
+  transform: scale(105%);
+}
 .header__link:not(:last-child) {
   margin-right: 60px;
 }
@@ -123,6 +144,7 @@ ul {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .full-screen__main-paragraph {
   color: #fff;
   font-size: 18px;
@@ -147,6 +169,9 @@ ul {
   max-width: 485px;
   min-width: 420px;
   width: 45%;
+}
+.full-screen__content-box--ST {
+  max-width: 100%;
 }
 .full-screen__image-box {
   width: 55%;

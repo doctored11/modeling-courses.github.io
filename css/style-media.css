@@ -43,6 +43,12 @@
     height: 0;
     display: none;
   }
+  .full-screen__content-box {
+    min-width: 0;
+  }
+  .full-screen__image-box {
+    display: none;
+  }
   .frame {
     padding: 0 30px;
   }
@@ -85,6 +91,9 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+  }
+  .courses__card:hover .card__name--courses::after {
+    width: 100% !important;
   }
 }
 @media (max-width: 575px) {
@@ -327,4 +336,10 @@
 .header__link:hover::after {
   width: 100%;
   transition: width cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s 0.1s;
+}
+/* :active {
+  transform: scale(110%);
+} */
+.button:active {
+  transform: scale(110%) !important;
 }

@@ -21,23 +21,31 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/style-media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <div class="header__logo">нейминг</div>
+      <a href="#" class="header__logo">Visual11</a>
       <div class="header__drop-down-menu">
         <ul class="header__menu">
           <li class="header__link">
-            <a href="#"> Главная </a>
+            <a href="#main"> Главная </a>
           </li>
           <li class="header__link">
-            <a href="#"> О Нас </a>
+            <a href="#about"> О Нас </a>
           </li>
           <li class="header__link">
-            <a href="#"> Инфо </a>
+            <a href="#info"> Инфо </a>
           </li>
           <li class="header__link">
-            <a href="#"> Курсы </a>
+            <a href="#courses"> Курсы </a>
           </li>
         </ul>
       </div>
@@ -49,7 +57,9 @@
         </button>
       </div>
     </header>
+
     <main class="main">
+      <a name="main"></a>
       <section class="main__full-screen full-screen frame">
         <div class="full-screen__content-box">
           <h1 class="full-screen__main-heading big-heading">
@@ -59,7 +69,9 @@
             Следует отметить, что существующая теория способствует повышению
             качества благоприятных перспектив. Не следует, однако, забывать.
           </p>
-          <button class="full-screen__buy-btn button">Выбрать курс</button>
+          <a href="#courses" class="full-screen__buy-btn button"
+            >Выбрать курс</a
+          >
         </div>
         <div class="full-screen__image-box">
           <img src="img/mainfig.png" alt="" />
@@ -69,6 +81,7 @@
         <div class="row">
           <div class="col-lg-2 col-mg-4 col-sm-4 col-0 plus__space"></div>
           <div class="plus__descr col-lg-7 col-mg-8 col-sm-8 col-12">
+            <a name="about"></a>
             <h2 class="plus__heading big-heading">Преимущества обучения</h2>
             <p class="p-txt plus__paragraph">
               Имеется спорная точка зрения, гласящая примерно следующее:
@@ -203,6 +216,7 @@
           </li>
         </ul>
       </section>
+      <a name="info"></a>
       <section class="main__info info container section">
         <h2 class="info__heading big-heading">Челы или плюсы</h2>
 
@@ -263,6 +277,7 @@
           </li>
         </ul>
       </section>
+      <a name="courses"></a>
       <section class="main__courses courses section container">
         <h2 class="courses__heading big-heading row">Курсы</h2>
 
@@ -278,10 +293,8 @@
                   Cinema 4d для начинающих
                 </a>
                 <p class="card__text card__text--courses p-txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Libero nisi quia repellat repudiandae, autem natus facere,
-                  distinctio voluptate rerum inventore facilis, tempora dolores
-                  alias exercitationem eaque expedita! Dolores, ratione eaque!
+                  Научитесь моделировать объекты, работать со светом и физикой.
+                  Сможете создавать графику для мультфильмов и прочих анимаций.
                 </p>
                 <a href="pages/Cinema4D.html" class="card__btn button"
                   >Подробнее</a
@@ -294,7 +307,7 @@
               <div class="card__time"></div>
               <div class="card__descr card__descr--courses">
                 <a
-                  href="Course.html"
+                  href="pages/Blender.html"
                   class="card__name card__name--courses big-heading"
                 >
                   Blender: продвинутый уровень
@@ -305,7 +318,9 @@
                   eligendi. Inventore, sit? Voluptatem velit et voluptatibus
                   nemo aspernatur dolore error expedita iste excepturi!
                 </p>
-                <a href="Course.html" class="card__btn button">Подробнее</a>
+                <a href="pages/Blender.html" class="card__btn button"
+                  >Подробнее</a
+                >
               </div>
             </div>
           </li>
@@ -315,7 +330,7 @@
               <div class="card__time"></div>
               <div class="card__descr card__descr--courses">
                 <a
-                  href="Course.html"
+                  href="pages/3ds.html"
                   class="card__name card__name--courses big-heading"
                 >
                   Визуализация в 3ds Max
@@ -326,7 +341,7 @@
                   aspernatur aperiam minima placeat veniam hic deleniti. Nobis,
                   assumenda esse ipsum repellendus quia eaque!
                 </p>
-                <a href="Course.html" class="card__btn button">Подробнее</a>
+                <a href="pages/3ds.html" class="card__btn button">Подробнее</a>
               </div>
             </div>
           </li>
@@ -335,7 +350,7 @@
               <div class="card__time"></div>
               <div class="card__descr card__descr--courses">
                 <a
-                  href="Course.html"
+                  href="pages/Z-brush.html"
                   class="card__name card__name--courses big-heading"
                 >
                   Скульптинг в ZBrush
@@ -346,7 +361,9 @@
                   aspernatur aperiam minima placeat veniam hic deleniti. Nobis,
                   assumenda esse ipsum repellendus quia eaque!
                 </p>
-                <a href="Course.html" class="card__btn button">Подробнее</a>
+                <a href="pages/Z-brush.html" class="card__btn button"
+                  >Подробнее</a
+                >
               </div>
             </div>
           </li>
