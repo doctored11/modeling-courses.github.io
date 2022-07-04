@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="stylesheet" href="../css/style-media.css" />
+    <link rel="stylesheet" href="../css/styleST.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="../index.html" class="header__logo">Visual11</a>
+      <div class="header__drop-down-menu">
+        <ul class="header__menu">
+          <li class="header__link">
+            <a href="../index.html#main"> Главная </a>
+          </li>
+          <li class="header__link">
+            <a href="../index.html#about"> О Нас </a>
+          </li>
+          <li class="header__link">
+            <a href="../index.html#info"> Инфо </a>
+          </li>
+          <li class="header__link">
+            <a href="../index.html#courses"> Курсы </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__burger">
+        <button class="header__burger-ico" aria-label="открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__full-screen full-screen frame container">
+        <div class="full-screen__content-box full-screen__content-box--ST row">
+          <div
+            class="full-screen__people-image col-lg-4 col-md-4 col-sm-5 col-12"
+          >
+            <img
+              src="../img/person/pers3-2.png"
+              alt=""
+              class="full-screen__people-face"
+            />
+          </div>
+          <div
+            class="full-screen__people-info col-lg-6 col-md-6 col-sm-6 col-12"
+          >
+            <h2 class="big-heading full-screen__about-people-heading">
+              Обо мне
+            </h2>
+            <p class="p-txt full-screen__about-people-text" data-simplebar>
+              Я Галя
+              <span class="gray-txt">"АКА. баба Галя"</span> ﹣ Прошла курсы от
+              Visual11 - хорошая программа, преподаватели отличные - только
+              Кекич Бутовский немного странный, но как педагог хороший.
+              Рекомендую всем пройти курсы и стать профессионалом!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__pluses plus container section">
+        <ul class="main__feedback row">
+          <li
+            class="feedback__property-item col-lg-4 col-md-4 col-sm-12 col-12"
+          >
+            <div class="feedback__property-content">
+              <div class="teach">
+                <div class="feedback__property-ico">
+                  <img
+                    src="../img/menteacher1.jpeg"
+                    alt=""
+                    class="feedback__teacher-ico"
+                  />
+                </div>
+
+                <div class="teach-name">
+                  <p class="name-of-teacher p-txt">Кекич Бутовский</p>
+                </div>
+              </div>
+              <p class="feedback__property-descr p-txt" data-simplebar>
+                Люблю маинкрафт и девочек)
+              </p>
+            </div>
+          </li>
+          <li
+            class="feedback__property-item col-lg-4 col-md-4 col-sm-12 col-12"
+          >
+            <div class="feedback__property-content">
+              <div class="teach">
+                <div class="feedback__property-ico">
+                  <img
+                    src="../img/menteacher3.jpeg"
+                    alt=""
+                    class="feedback__teacher-ico"
+                  />
+                </div>
+
+                <div class="teach-name">
+                  <p class="name-of-teacher p-txt">Василий Задумкин</p>
+                </div>
+              </div>
+              <p class="feedback__property-descr p-txt" data-simplebar>
+                Очень талантливая девочка, продолжай в том же жухе!
+              </p>
+            </div>
+          </li>
+
+          <li
+            class="feedback__property-item col-lg-4 col-md-4 col-sm-12 col-12"
+          >
+            <div class="feedback__property-content">
+              <div class="teach">
+                <div class="feedback__property-ico">
+                  <img
+                    src="../img/menteacher4.webp"
+                    alt=""
+                    class="feedback__teacher-ico"
+                  />
+                </div>
+
+                <div class="teach-name">
+                  <p class="name-of-teacher p-txt">Фарик Иванов</p>
+                </div>
+              </div>
+              <p class="feedback__property-descr p-txt" data-simplebar>
+                Успехов! Хорошие работы!
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main__info info container section">
+        <h2 class="info__heading big-heading">Работы</h2>
+
+        <div class="info__work work swiper">
+          <ul class="work__ul swiper-wrapper">
+            <li
+              class="work__li swiper-slide"
+              aria-label="1 / 3"
+              role="group"
+              tabindex="-1"
+            >
+              <img
+                src="../img/personSlider/3block1.jpeg"
+                alt=""
+                class="work__pic"
+              />
+            </li>
+            <li
+              class="work__li swiper-slide"
+              aria-label="1 / 3"
+              role="group"
+              tabindex="-1"
+            >
+              <img
+                src="../img/personSlider/3brain1.jpg"
+                alt=""
+                class="work__pic"
+              />
+            </li>
+            <li
+              class="work__li swiper-slide"
+              aria-label="1 / 3"
+              role="group"
+              tabindex="-1"
+            >
+              <img
+                src="../img/personSlider/3face1.jpg"
+                alt=""
+                class="work__pic"
+              />
+            </li>
+            <li
+              class="work__li swiper-slide"
+              aria-label="1 / 3"
+              role="group"
+              tabindex="-1"
+            >
+              <img
+                src="../img/personSlider/3table1.jpg"
+                alt=""
+                class="work__pic"
+              />
+            </li>
+          </ul>
+          <div class="swiper-pagination">
+            <span
+              class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              aria-label="Go to slide 1"
+              role="button"
+            ></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__courses courses section container">
+        <h2 class="courses__heading big-heading row">Пройденные курсы :</h2>
+
+        <div class="courses__cards row">
+          <div class="courses__col col-lg-6 col-md-6 col-sm-6 col-12">
+            <div class="courses__card card course-3">
+              <div class="card__time"></div>
+              <div class="card__descr card__descr--courses">
+                <h3 class="card__name card__name--courses">
+                  Визуализация в 3ds Max
+                </h3>
+                <p class="card__text card__text--courses p-txt">
+                  Вы научитесь создавать эффектные 3D-визуализации интерьеров и
+                  работать с мебелью и декором и даже людьми. Сможете оформить
+                  портфолио, привлечь первых клиентов или найти работу!
+                </p>
+                <a href="3ds.html" class="card__btn button">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <ul class="footer__socials">
+          <li class="footer__media-ico">
+            <a href="#" class="media-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewbox="0 0 512 512"
+              >
+                <title>Logo Instagram</title>
+                <path
+                  d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z"
+                />
+                <path
+                  d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__media-ico">
+            <a
+              href="https://vk.com/diarywebvdv"
+              target="_blank"
+              class="media-link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewbox="0 0 512 512"
+              >
+                <title>Logo Vk</title>
+                <path
+                  d="M484.7 132c3.56-11.28 0-19.48-15.75-19.48h-52.37c-13.21 0-19.31 7.18-22.87 14.86 0 0-26.94 65.6-64.56 108.13-12.2 12.3-17.79 16.4-24.4 16.4-3.56 0-8.14-4.1-8.14-15.37V131.47c0-13.32-4.06-19.47-15.25-19.47H199c-8.14 0-13.22 6.15-13.22 12.3 0 12.81 18.81 15.89 20.84 51.76V254c0 16.91-3 20-9.66 20-17.79 0-61-66.11-86.92-141.44C105 117.64 99.88 112 86.66 112H33.79C18.54 112 16 119.17 16 126.86c0 13.84 17.79 83.53 82.86 175.77 43.21 63 104.72 96.86 160.13 96.86 33.56 0 37.62-7.69 37.62-20.5v-47.66c0-15.37 3.05-17.93 13.73-17.93 7.62 0 21.35 4.09 52.36 34.33C398.28 383.6 404.38 400 424.21 400h52.36c15.25 0 22.37-7.69 18.3-22.55-4.57-14.86-21.86-36.38-44.23-62-12.2-14.34-30.5-30.23-36.09-37.92-7.62-10.25-5.59-14.35 0-23.57-.51 0 63.55-91.22 70.15-122"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__media-ico">
+            <a href="#" class="media-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewbox="0 0 512 512"
+              >
+                <title>Logo Facebook</title>
+                <path
+                  d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__media-ico">
+            <a href="#" class="media-link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewbox="0 0 512 512"
+              >
+                <title>Logo Youtube</title>
+                <path
+                  d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+    <script type="module">
+      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+      const swiper = new Swiper();
+    </script>
+
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../js/script-swiper.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
