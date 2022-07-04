@@ -1,6 +1,6 @@
 @media (max-width: 1992px) {
   .container {
-    padding: 80px 40px;
+    padding: 80px 12%;
 
     max-width: 100%;
   }
@@ -19,7 +19,7 @@
     padding: 30px 40px;
   }
   .frame {
-    padding: 0 40px;
+    padding: 0 12%;
   }
   .plus__property-content {
     align-items: flex-start;
@@ -38,6 +38,14 @@
   }
   .card-person {
     filter: brightness(1);
+  }
+  .container {
+    padding: 80px 8%;
+
+    max-width: 100%;
+  }
+  .frame {
+    padding: 0 12%;
   }
 }
 @media (max-width: 770px) {
@@ -79,7 +87,7 @@
   .header {
     flex-direction: column;
     padding: 30px 30px;
-    height: 135px;
+    height: 90px;
     max-height: 160px;
   }
   .header__drop-down-menu,
@@ -90,6 +98,7 @@
   }
   .header__logo {
     margin-bottom: 30px;
+    margin: 0;
   }
   .full-screen__main-heading {
     font-size: 50px;
@@ -285,7 +294,7 @@
   }
   .container,
   .frame {
-    padding: 0 15%;
+    padding: 3% 21%;
   }
 }
 /*  */
