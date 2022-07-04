@@ -40,12 +40,12 @@
     filter: brightness(1);
   }
   .container {
-    padding: 80px 8%;
+    padding: 80px 4%;
 
     max-width: 100%;
   }
   .frame {
-    padding: 0 12%;
+    padding: 0 4%;
   }
 }
 @media (max-width: 770px) {
