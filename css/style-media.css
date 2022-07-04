@@ -36,6 +36,9 @@
   .plus__descr {
     margin-bottom: 30px;
   }
+  .card-person {
+    filter: brightness(1);
+  }
 }
 @media (max-width: 770px) {
   .full-screen__image-box * {
@@ -72,6 +75,7 @@
   .plus__property-content {
     height: 100%;
   }
+
   .header {
     flex-direction: column;
     padding: 30px 30px;

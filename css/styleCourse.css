@@ -127,8 +127,16 @@ section {
 
 .target__card {
   height: 360px;
-  padding: 125px 10px 5px 10px;
+  padding: 140px 10px 5px 10px;
   border-radius: 10px;
+}
+.target__heading {
+  font-size: 30px;
+  display: inline;
+  font-weight: 500;
+  line-height: 40px;
+  color: rgba(24, 23, 23, 0.832);
+  border-bottom: 1px solid var(--main-blue);
 }
 .row {
   margin-bottom: 25px;

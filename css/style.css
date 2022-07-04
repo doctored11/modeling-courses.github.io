@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 2px solid rgba(243, 179, 40, 0.2);
+  /* border: 2px solid rgba(243, 179, 40, 0.2); */
 }
 *:focus {
   outline-color: var(--main-blue);
@@ -82,6 +82,41 @@ ul {
 .card {
   border-radius: 20px;
 }
+.card-person {
+  background: no-repeat;
+  background-size: 100% 50%;
+
+  filter: brightness(0.6);
+  transition: all ease 0.2s;
+}
+.card-person .card__text {
+  filter: brightness(9);
+}
+.card-person:hover {
+  filter: brightness(1);
+  transform: translateY(-5px);
+  transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s,
+    filter cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s 0.1s;
+}
+.card-person:hover .card__text {
+  filter: none;
+}
+
+.card-person--1 {
+  background-image: url(../img/person/pers2-1.jpeg);
+}
+.card-person--2 {
+  background-image: url(../img/person/persJ-1.png);
+}
+
+.card-person--3 {
+  background-image: url(../img/person/pers1-1.webp);
+}
+
+.card-person--4 {
+  background-image: url(../img/person/pers3-1.jpeg);
+}
+
 /* header */
 .header__burger {
   display: none;
@@ -349,9 +384,35 @@ ul {
 /* footer */
 .footer {
   background-color: #2e2b44;
+  padding: 30px 0;
 }
 .footer__socials {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.footer__media-ico {
+  width: 40px;
+  height: 40px;
+  transition: all ease 0.1s;
+}
+.footer__media-ico * {
+  width: 100%;
+  height: 100%;
+}
+.footer__media-ico:not(:last-child) {
+  margin-right: 20px;
+}
+.footer__media-ico:hover {
+  transform: scale(105%);
+  transition: all ease 0.2s;
+}
+.footer__media-ico:hover svg path,
+.footer__media-ico:hover svg rect {
+  fill: #fff;
+  transition: all ease 0.2s;
+}
+.footer__media-ico svg path,
+.footer__media-ico svg rect {
+  fill: #0d011b;
 }

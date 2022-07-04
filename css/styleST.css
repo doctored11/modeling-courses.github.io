@@ -83,6 +83,9 @@
     #212133 100%
   );
 }
+.gray-txt {
+  opacity: 40%;
+}
 .feedback__property-ico {
   width: 90px;
   height: 90px;
@@ -161,6 +164,22 @@
   left: 0;
   bottom: 0;
   right: 0;
+}
+.full-screen__people-face {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.full-screen__people-image {
+  padding: 2px;
+  overflow: hidden;
+  display: flex;
+}
+.feedback__teacher-ico {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /*  */
