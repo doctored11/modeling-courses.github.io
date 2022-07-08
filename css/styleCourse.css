@@ -241,6 +241,7 @@ section {
   position: relative;
   border-top: 1px solid #9788c687;
 }
+
 .qwestions__item:last-child {
   border-bottom: 1px solid #9788c687;
 }
@@ -264,6 +265,7 @@ section {
   justify-content: center;
   flex-direction: column;
   transition: all ease 0.3s;
+  padding: 2% 0;
 }
 .qwestion__svg {
   transform: rotate(0deg);
@@ -284,6 +286,9 @@ section {
 }
 .ac-header {
   padding-right: 220px;
+}
+.ac-trigger {
+  margin: 0;
 }
 .ac-header::after {
   position: absolute;

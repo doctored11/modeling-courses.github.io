@@ -40,12 +40,12 @@
     filter: brightness(1);
   }
   .container {
-    padding: 80px 8%;
+    padding: 80px 4%;
 
     max-width: 100%;
   }
   .frame {
-    padding: 0 12%;
+    padding: 0 4%;
   }
 }
 @media (max-width: 770px) {
@@ -292,9 +292,14 @@
     padding: 4% 0;
     z-index: 3;
   }
+  .main__full-screen {
+    min-height: 900px;
+    height: initial !important;
+    max-height: inherit;
+  }
   .container,
   .frame {
-    padding: 3% 21%;
+    padding: 4% 23%;
   }
 }
 /*  */
